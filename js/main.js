@@ -33,14 +33,13 @@ var redCurrant = {
 // END DO NOT CHANGE ZONE
 // ##########################################################
 
-
 // Write your function here, name it `writeBerries`
 
-var listContacts = function (contacts) {
-  document.write('<h1>Planetary Peeps</h1>');
+var writeBerries = function (berries) {
+  document.write('<h1>Berries</h1>');
 
-  contacts.forEach(function (item) {
-    document.write('<h2>' + item.name + '<h2>');
+  berries.forEach(function (berry) {
+    document.write('<h2>' + berry.name + '<h2>');
     document.write('<dl>');
     document.write('<dt>E-mail address</dt>');
     document.write('<dd><a href="mailto:' + item.email + '">' + item.email + '</a></dd>');
@@ -53,8 +52,6 @@ var listContacts = function (contacts) {
 };
 
 listContacts(peeps);
-
-
 
 // ##########################################################
 // START DO NOT CHANGE ZONE
